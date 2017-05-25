@@ -1,0 +1,12 @@
+{
+  "search": {
+    "baseUrl": "https://www.google.co.in"
+  },
+  "keywords": {
+    "keyword1": "abhishek yadav qa",
+    "keyword2": "hello selenium"
+  },
+  "results": {
+    "result1": "www.helloselenium.com"
+  }
+}
