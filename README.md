@@ -9,6 +9,7 @@ Prequisites
 2. Protractor should be installed and setup.
 3. Browser should be installed.
 4. Internet Connection should be available.
+5. Extract node_modules.zip in same directory.
 	
 
 ------------------------------------
