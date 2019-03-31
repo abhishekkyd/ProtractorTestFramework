@@ -1,9 +1,9 @@
 {
   "searchPage":
   {
-    "googleLogo": ["id","hplogo"],
+    "googleLogo": ["xpath","//*[@alt='Google']"],
     "searchInput": ["name","q"],
-    "searchButton": ["name","btnG"],
-    "result": ["xpath","//div[@id='res']//div[@class='_NId'][#REPLACE#]//h3[@class='r']"]
+    "searchButton": ["xpath","//*[@aria-label='Google Search']"],
+    "result": ["xpath","//div[@class='r']/a/h3"]
   }
 }

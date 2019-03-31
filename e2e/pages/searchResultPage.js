@@ -15,7 +15,7 @@ module.exports = function () {
     };
 
     this.isPageLoaded = function (value) {
-        var result = objLocator.findLocator(objRepo.searchPage.result, value);
+        var result = objLocator.findLocator(objRepo.searchPage.result);
         waitActions.waitForElementIsDisplayed(result);
         return this;
     };

@@ -1,7 +1,7 @@
 module.exports = {
   // The address of a running selenium server.
-  seleniumAddress: 'http://localhost:4444/wd/hub',
-
+  //seleniumAddress: 'http://localhost:4444/wd/hub',
+  directConnect: true,
   allScriptsTimeout: 120000,
   getPageTimeout: 180000,
   maxSessions: 1,

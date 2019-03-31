@@ -1,4 +1,4 @@
-describe('Profiling Tests execution on ' + browser.browserName, function () {
+describe('Google Search Tests execution on' + browser.browserName, function () {
 
     'use strict';
 
@@ -15,7 +15,7 @@ describe('Profiling Tests execution on ' + browser.browserName, function () {
 
     it('search Abhishek Yadav QA', function () {
         searchPage.enterSearchKeyword(testData.keywords.keyword1).search();
-        searchResultPage.isPageLoaded("1");
+        searchResultPage.isPageLoaded();
         expect(browser.getCurrentUrl()).toContain(testData.keywords.keyword1.replace(new RegExp(" ", 'g'), "+"));
     });
 
@@ -26,7 +26,7 @@ describe('Profiling Tests execution on ' + browser.browserName, function () {
     });
 
     it('Open Hello Selenium Result Page', function () {
-        searchResultPage.openSearchResultLink("1");
+        searchResultPage.openSearchResultLink();
         expect(browser.getCurrentUrl()).toContain(testData.results.result1);
     });
 });
