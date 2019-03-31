@@ -1,4 +1,4 @@
-# ProtractorTestFramework
+# Protractor Test Framework
 Protractor Test Framework to perform basic angular testing using protrator and protractor-html-reproter-2<br>
 **supports till protractor 5.4.2, work in progress for new version protractor**
 
